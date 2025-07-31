@@ -186,3 +186,96 @@
   cursor: pointer;
   font-size: 16px;
 }
+/* Menu Section*/
+.menu {
+  text-align: center;
+  padding: 80px 20px;
+  background: #fff;
+}
+
+.menu h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #2a1e0f;
+}
+
+.menu-categories {
+  margin-bottom: 40px;
+}
+
+.menu-categories button {
+  background: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  margin: 0 5px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #2a1e0f;
+}
+
+.menu-categories button.active {
+  background: #2a1e0f;
+  color: #fff;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.menu-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.menu-card img {
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 15px;
+}
+
+.menu-card h3 {
+  font-size: 1.2rem;
+  margin: 10px 0 5px;
+  color: #2a1e0f;
+}
+
+.rating {
+  width: 90px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.menu-card p {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.price-order {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.price-order button {
+  background: #ff7b00;
+  border: none;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.price-order button:hover {
+  background: #e06d00;
+}
