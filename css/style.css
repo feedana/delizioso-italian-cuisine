@@ -289,7 +289,7 @@
   padding: 80px 40px;
   gap: 50px;
   background-color: #f0f1db;
-  
+
 }
 
 .reservation-image img {
@@ -325,4 +325,64 @@
   border-radius: 25px;
   cursor: pointer;
   font-size: 16px;
+}
+
+/* Chef Section */
+.chef-section {
+  text-align: center;
+  padding: 80px 20px;
+  background: #fff;
+}
+
+.chef-section h2 {
+  font-size: 2.5rem;
+  color: #2a1e0f;
+  margin-bottom: 50px;
+}
+
+.chef-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.chef-card {
+  background: #f8f8f8;
+  border-radius: 20px;
+  padding: 20px;
+  width: 220px;
+  text-align: center;
+}
+
+.chef-card img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.chef-card h3 {
+  font-size: 1.1rem;
+  color: #2a1e0f;
+  margin-bottom: 5px;
+}
+
+.chef-card p {
+  color: gray;
+  font-size: 0.9rem;
+}
+
+.view-all {
+  background: orange;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.view-all:hover {
+  background: #e06d00;
 }
