@@ -279,3 +279,50 @@
 .price-order button:hover {
   background: #e06d00;
 }
+
+/* Reservation-Section */
+
+.reservation-section {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  padding: 80px 40px;
+  gap: 50px;
+  background-color: #f0f1db;
+  
+}
+
+.reservation-image img {
+  width: 600px;
+  border-radius: 20px;
+}
+
+.reservation-text {
+  max-width: 50%;
+}
+
+.reservation-text h2 {
+  font-size: 36px;
+  color: #2b1a08;
+  margin-bottom: 20px;
+}
+
+.reservation-text h2 span {
+  color: orange;
+}
+
+.reservation-text p {
+  color: #5a4c3d;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.reservation-btn {
+  background: orange;
+  border: none;
+  padding: 12px 30px;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+}
