@@ -280,16 +280,19 @@
   background: #e06d00;
 }
 
-/* Reservation-Section */
+/* Reservation-Section */  
+/* there is issueeeeeee */
 
 .reservation-section {
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
-  /* padding: 80px 40px; */
-  /* gap: 50px; */
+  justify-content: space-between; /* optional */
+  gap: 50px;
+  padding: 80px 40px;
   background-color: #f0efd4;
-
+  width: 100%;       
+  min-height: 100vh; 
+  box-sizing: border-box;
 }
 
 .reservation-image img {
