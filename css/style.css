@@ -280,24 +280,25 @@
   background: #e06d00;
 }
 
-/* Reservation-Section */  
-/* there is issueeeeeee */
 
+/* Reservation Section */
 .reservation-section {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* optional */
+  justify-content: space-between; /* keeps image and text apart */
   gap: 50px;
   padding: 80px 40px;
-  background-color: #f0efd4;
-  width: 100%;       
-  min-height: 100vh; 
+  background-color: #eeedce;
+
+  width: 100%;          /* cover full width */
   box-sizing: border-box;
 }
 
 .reservation-image img {
-  width: 600px;
-
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
 }
 
 .reservation-text {
@@ -328,7 +329,13 @@
   border-radius: 25px;
   cursor: pointer;
   font-size: 16px;
+  transition: 0.3s;
 }
+
+.reservation-btn:hover {
+  background: #673608;
+}
+
 
 /* Chef Section */
 .chef-section {
