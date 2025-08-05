@@ -285,21 +285,64 @@
 .reservation-section {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* keeps image and text apart */
+  justify-content: space-between;
   gap: 50px;
   padding: 80px 40px;
   background-color: #eeedce;
 
-  width: 100%;          /* cover full width */
+  width: 100%;          /
   box-sizing: border-box;
 }
+/* photos part */
+.reservation-photos {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
 
-.reservation-image img {
+.circle-main {
   width: 100%;
-  max-width: 600px;
-  height: auto;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 20px solid #fdf4eb;
+}
+
+.circle-main img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 50%;
+}
+
+.circle-top, .circle-bottom {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid white;
+  background: #fff;
+}
+
+.circle-top {
+  top: -20px;
+  right: 50px;
+}
+
+.circle-bottom {
+  bottom: -20px;
+  left: 30px;
+}
+
+.circle-top img, .circle-bottom img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   display: block;
 }
+
 
 .reservation-text {
   max-width: 60%;
