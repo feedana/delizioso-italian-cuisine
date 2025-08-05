@@ -658,3 +658,26 @@
   font-size: 0.85rem;
   color: #d0ccc7;
 }
+
+.social-popup {
+  position: fixed;      
+  bottom: 20px;         
+  right: 20px;          
+  display: flex;
+  flex-direction: column;
+  gap: 10px;            
+  z-index: 2000;        
+}
+
+.social-popup a img {
+  width: 45px;          /* Icon size */
+  height: 45px;
+  border-radius: 50%;   
+  background: white;    
+  padding: 8px;
+  
+}
+
+.social-popup a img:hover {
+  transform: scale(1.1); 
+}
