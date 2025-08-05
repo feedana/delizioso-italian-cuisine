@@ -11,6 +11,14 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px 60px;
+
+  position: fixed;       /* Fixed navbar */
+  top: 0;                
+  left: 0;
+  width: 100%;           
+  background: white;    
+  z-index: 10;        
+ 
 }
 
 .logo {
@@ -41,6 +49,7 @@
   text-decoration: none;
   color: black;
   font-size: 14px;
+ 
 }
 
 .nav-links a.active {
